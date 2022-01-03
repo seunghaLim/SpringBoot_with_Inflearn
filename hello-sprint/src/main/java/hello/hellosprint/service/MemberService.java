@@ -6,19 +6,21 @@ import hello.hellosprint.repository.MemoryMemberRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.transaction.Transactional;
 import java.util.List;
 import java.util.Optional;
 
 //@Service // 어노테이션으로 얘가 서비스라고 알려줘야지 스프링이 스프링 빈으로 등록해줌
-    public class MemberService {
+@Transactional // JPA에서 join 메소드 돌릴 때 필요한 건가봄
+public class MemberService {
 
-        private final MemberRepository memberRepository;
+    private final MemberRepository memberRepository;
 
         //생성자 제작 외부에서 넣어준 memberRepository를 사용(DI)
         //@Autowired
-        public MemberService(MemberRepository memberRepository) {
-            this.memberRepository = memberRepository;
-        }
+    public MemberService(MemberRepository memberRepository) {
+        this.memberRepository = memberRepository;
+    }
 
     /**
      회원가입

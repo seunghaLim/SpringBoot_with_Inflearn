@@ -34,7 +34,7 @@ public class MemoryMemberRepository implements MemberRepository {
         return new ArrayList<>(store.values());
     }
 
-
+    //override 없음
     public void clearStore() {
         store.clear();
     }

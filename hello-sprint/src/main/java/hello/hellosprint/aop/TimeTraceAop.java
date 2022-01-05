@@ -11,7 +11,8 @@ import org.springframework.stereotype.Component;
 @Component // 스프링 빈으로 등록해줘야 함
 public class TimeTraceAop {
 
-    @Around("execution(* hello.hellosprint.. *(..))") // 야래 코드를 어디에다가 적용할 지 그 영역을 정해주어야 함
+    //아래 경로 설정에서 띄어쓰기없음!!
+    @Around("execution(* hello.hellosprint..*(..))") // 야래 코드를 어디에다가 적용할 지 그 영역을 정해주어야 함
     public Object execute(ProceedingJoinPoint joinPoint) throws Throwable{
 
         long start = System.currentTimeMillis(); // 시작시간

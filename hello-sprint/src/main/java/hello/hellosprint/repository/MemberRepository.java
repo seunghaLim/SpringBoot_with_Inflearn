@@ -11,5 +11,5 @@ public interface MemberRepository {
     List<Member> findAll();
 
 
-   void clearStore(); //?????
+   //void clearStore(); 이거 없어야함
 }

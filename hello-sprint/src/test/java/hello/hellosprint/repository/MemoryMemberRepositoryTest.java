@@ -11,7 +11,8 @@ import static org.assertj.core.api.Assertions.*; // 알트+엔터 누르고 이�
 
 public class MemoryMemberRepositoryTest {
 
-    MemberRepository repository = new MemoryMemberRepository();
+    // 부모 클래스 MemoryMemberRepository임 MemberRepository가 아니라.......
+    MemoryMemberRepository repository = new MemoryMemberRepository();
 
     //테스트벤치할 때 테스트가 끝날때마다 메모리를 지워주는 메소드 필요
     @AfterEach

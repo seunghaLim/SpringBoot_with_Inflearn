@@ -63,7 +63,4 @@ public class JdbcTemplateMemberRepository implements MemberRepository {
     }
 
 
-    public void clearStore(){
-
-    }
 }

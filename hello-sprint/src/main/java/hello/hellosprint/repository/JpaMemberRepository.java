@@ -6,7 +6,7 @@ import javax.persistence.EntityManager;
 import java.util.List;
 import java.util.Optional;
 
-public class JpaMemberRepository implements  MemberRepository{
+public class JpaMemberRepository implements MemberRepository{
 
     private final EntityManager em; // jpa가 자동으로 만들어준 엔티티매니저를 우리가 injection하면 됨
 
@@ -40,10 +40,6 @@ public class JpaMemberRepository implements  MemberRepository{
                 .getResultList();
     }
 
-
-    public void clearStore() {
-
-    }
 
 
 }

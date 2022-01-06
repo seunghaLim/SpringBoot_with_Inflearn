@@ -29,4 +29,10 @@ public class OrderServiceImpl implements OrderService{
         //주문엔터티 반환
         return new Order(memberId, itemName, itemPrice, discountPrice);
     }
+
+
+    //싱글톤 확인용
+    public MemberRepository getMemberRepository() {
+        return memberRepository;
+    }
 }

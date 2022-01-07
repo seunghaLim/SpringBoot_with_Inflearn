@@ -2,7 +2,7 @@ package heiil.core.beanfind;
 
 import heiil.core.member.MemberService;
 import heiil.core.member.MemberServiceImpl;
-import heiil.core.order.AppConfig;
+import heiil.core.AppConfig;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

@@ -2,7 +2,7 @@ package heiil.core.singleton;
 
 import heiil.core.member.MemberRepository;
 import heiil.core.member.MemberServiceImpl;
-import heiil.core.order.AppConfig;
+import heiil.core.AppConfig;
 import heiil.core.order.OrderServiceImpl;
 import org.junit.jupiter.api.Test;
 import org.springframework.context.ApplicationContext;

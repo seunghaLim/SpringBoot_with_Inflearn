@@ -2,11 +2,8 @@ package heiil.core;
 import heiil.core.member.Grade;
 import heiil.core.member.Member;
 import heiil.core.member.MemberService;
-import heiil.core.member.MemberServiceImpl;
-import heiil.core.order.AppConfig;
 import heiil.core.order.Order;
 import heiil.core.order.OrderService;
-import heiil.core.order.OrderServiceImpl;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

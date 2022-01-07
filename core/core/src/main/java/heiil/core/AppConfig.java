@@ -1,4 +1,4 @@
-package heiil.core.order;
+package heiil.core;
 
 import heiil.core.discount.DiscountPolicy;
 import heiil.core.discount.FixDiscountPolicy;
@@ -7,6 +7,8 @@ import heiil.core.member.MemberRepository;
 import heiil.core.member.MemberService;
 import heiil.core.member.MemberServiceImpl;
 import heiil.core.member.MemoryMemberRepository;
+import heiil.core.order.OrderService;
+import heiil.core.order.OrderServiceImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

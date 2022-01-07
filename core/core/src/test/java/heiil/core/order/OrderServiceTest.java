@@ -1,9 +1,9 @@
 package heiil.core.order;
 
+import heiil.core.AppConfig;
 import heiil.core.member.Grade;
 import heiil.core.member.Member;
 import heiil.core.member.MemberService;
-import heiil.core.member.MemberServiceImpl;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

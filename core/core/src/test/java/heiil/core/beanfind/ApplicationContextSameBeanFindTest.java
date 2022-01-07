@@ -2,7 +2,6 @@ package heiil.core.beanfind;
 
 import heiil.core.member.MemberRepository;
 import heiil.core.member.MemoryMemberRepository;
-import heiil.core.order.AppConfig;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

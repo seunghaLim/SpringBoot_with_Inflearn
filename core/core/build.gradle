@@ -24,6 +24,9 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
 	implementation 'org.projectlombok:lombok:1.18.20'
 	implementation 'org.projectlombok:lombok:1.18.20'
+	//web 라이브러리 추가
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'javax.inject:javax.inject:1'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
 	// 롬복 라이브러리 추가 시작

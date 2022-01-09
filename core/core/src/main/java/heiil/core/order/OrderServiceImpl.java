@@ -1,14 +1,10 @@
 package heiil.core.order;
 
-import heiil.core.annotation.MainDiscountPolicy;
+import heiil.core.order.annotation.MainDiscountPolicy;
 import heiil.core.discount.DiscountPolicy;
-import heiil.core.discount.FixDiscountPolicy;
 import heiil.core.member.Member;
 import heiil.core.member.MemberRepository;
-import heiil.core.member.MemoryMemberRepository;
-import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component

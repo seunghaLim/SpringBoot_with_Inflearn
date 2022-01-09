@@ -1,10 +1,8 @@
 package heiil.core.discount;
 
-import heiil.core.annotation.MainDiscountPolicy;
+import heiil.core.order.annotation.MainDiscountPolicy;
 import heiil.core.member.Grade;
 import heiil.core.member.Member;
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component

@@ -64,6 +64,8 @@ public class ItemController {
     // 상품 수정
     @PostMapping(value = "/items/{itemId}/edit")
     public String updateItem(@ModelAttribute("form") BookForm form) {
+        
+        // 이렇게 엔티티를 컨트롤러에서 만들어서 세터로 설정하지 말고 서비스 계층에서 메소드를 하나 만드셈. 컨트롤러에서 해당 메소드를 호출해서 거기에 필요한 파라미터만 전달하고
         Book book = new Book();
         book.setId(form.getId());
         book.setName(form.getName());

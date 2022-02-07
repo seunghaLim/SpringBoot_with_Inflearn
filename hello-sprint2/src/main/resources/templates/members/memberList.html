@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<div class="container">
+    <div>
+        <table>
+            <thead>
+            <tr>
+                <th>#</th>
+                <th>이름</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="member : ${members}"> <!-- th 어쩌구가 tyymeleaf 문법임 for문처럼 mamber 객체 전부돌려서 출력 -->
+                <td th:text="${member.id}"></td> <!-- member.id -> 자바에서 자동으로 member.getId 처리 -->
+                <td th:text="${member.name}"></td> <!-- member.name -> 자바에서 자동으로 member.getName 처리 -->
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div> <!-- /container -->
+</body>
+</html>

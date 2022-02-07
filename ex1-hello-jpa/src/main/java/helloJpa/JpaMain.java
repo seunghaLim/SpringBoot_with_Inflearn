@@ -19,10 +19,13 @@ public class JpaMain {
 
         try{ // 필요한 로직 수행
 
-            // 객체 찾기
-            Member findMember = em.find(Member.class, 1L);
-            findMember.setName("HelloJPA"); // 수정만 하고 새로 저장을 안해도 JPA가 수정해줌
 
+            Member member = new Member();
+            member.setName("helloSequence");
+
+            System.out.println("================");
+            em.persist(member); // 수정만 하고 새로 저장을 안해도 JPA가 수정해줌
+            System.out.println("================");
 
             // 트랜젝션 커밋해서 변경사항 반영
             tx.commit();

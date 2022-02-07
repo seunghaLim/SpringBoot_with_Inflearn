@@ -10,6 +10,6 @@ public class ItemForm {
 
     private Long itemId;
     private String itemName;
-    private MultipartFile attachFile;
-    private List<MultipartFile> imageFiles;
+    private MultipartFile attachFile; // 첨부파일 저장용
+    private List<MultipartFile> imageFiles; // 이미지파일 저장용
 }

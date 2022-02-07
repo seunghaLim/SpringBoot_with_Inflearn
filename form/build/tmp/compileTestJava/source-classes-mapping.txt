@@ -1,0 +1,4 @@
+hello/itemservice/ItemServiceApplicationTests.java
+ hello.itemservice.ItemServiceApplicationTests
+hello/itemservice/domain/item/ItemRepositoryTest.java
+ hello.itemservice.domain.item.ItemRepositoryTest

@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9303dbae-5303-4f7b-a90c-482de32cec94" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/JpaMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/OrderItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/OrderStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+    <list default="true" id="9303dbae-5303-4f7b-a90c-482de32cec94" name="Changes" comment="2022.02.06 29일차 스프링부트 ORM&amp;JPA 기본편 ex2 jpashop">
       <change afterPath="$PROJECT_DIR$/../exception/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../exception/.idea/exception.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../typeconverter/.idea/.gitignore" afterDir="false" />
@@ -48,6 +34,7 @@
       <change afterPath="$PROJECT_DIR$/../validation/gradlew" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../validation/gradlew.bat" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../validation/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ex1-hello-jpa/src/main/java/helloJpa/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex1-hello-jpa/src/main/java/helloJpa/JpaMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ex1-hello-jpa/src/main/java/helloJpa/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ex1-hello-jpa/src/main/java/helloJpa/Member.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ex1-hello-jpa/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex1-hello-jpa/src/main/resources/META-INF/persistence.xml" afterDir="false" />
@@ -72,6 +59,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="ORM&amp;JPA_ex1-hello-jpa" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="JpbToolWindowState">
@@ -143,8 +135,17 @@
       <option name="presentableId" value="Default" />
       <updated>1644151496170</updated>
       <workItem from="1644151496847" duration="3223000" />
-      <workItem from="1644154986003" duration="5886000" />
+      <workItem from="1644154986003" duration="6380000" />
+      <workItem from="1644206300577" duration="407000" />
     </task>
+    <task id="LOCAL-00001" summary="2022.02.06 29일차 스프링부트 ORM&amp;JPA 기본편 ex2 jpashop">
+      <created>1644175144958</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1644175144958</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,5 +161,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2022.02.06 29일차 스프링부트 ORM&amp;JPA 기본편 ex2 jpashop" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022.02.06 29일차 스프링부트 ORM&amp;JPA 기본편 ex2 jpashop" />
   </component>
 </project>

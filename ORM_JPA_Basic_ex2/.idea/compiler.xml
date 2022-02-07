@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="jpashop_pre" />
         <module name="ORM_JPA_Basic_ex2" />
       </profile>
     </annotationProcessing>

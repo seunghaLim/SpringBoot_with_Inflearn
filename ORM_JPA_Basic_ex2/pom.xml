@@ -18,7 +18,7 @@
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-entitymanager</artifactId>
-            <version>5.3.10.Final</version>
+            <version>5.4.22.Final</version>
         </dependency>
         <!-- 자바 11 사용 시 추가 -->
         <dependency>
@@ -30,7 +30,7 @@
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
-            <version>1.4.199</version>
+            <version>1.4.200</version>
         </dependency>
     </dependencies>
 

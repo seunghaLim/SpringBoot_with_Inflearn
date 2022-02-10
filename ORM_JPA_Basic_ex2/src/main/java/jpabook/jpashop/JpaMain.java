@@ -1,9 +1,6 @@
 package jpabook.jpashop;
 
-import jpabook.jpashop.domain.Book;
-import jpabook.jpashop.domain.Item;
-import jpabook.jpashop.domain.Order;
-import jpabook.jpashop.domain.OrderItem;
+import jpabook.jpashop.domain.*;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -30,6 +27,21 @@ public class JpaMain {
             book.setAuthor("kim");
 
             em.persist(book);
+
+//            JPQL - select m form Member m where m.age > 18
+//            JPAFactoryQuery query = new JPAQueryFactory(em);
+//            QMember m = QMember.member;
+//            List<Member> list =
+//                    query.selectFrom(m)
+//                            .where(m.age.gt(18))
+//                            .orderBy(m.name.desc())
+//                            .fetch();
+
+//            네이티브 SQL
+//            String sql = “SELECT ID, AGE, TEAM_ID, NAME FROM MEMBER WHERE NAME = ‘kim’";
+//            List<Member> resultList =
+//                    em.createNativeQuery(sql, Member.class).getResultList();
+
 
             // 트랜젝션 커밋해서 변경사항 반영
             tx.commit();
